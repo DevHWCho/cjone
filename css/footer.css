@@ -1,0 +1,30 @@
+/* footer */
+.footer_inner > ul > li {display: inline-block; padding: 0 9px;}
+.footer_inner > ul > li>a {color: #9f9f9f;}
+.footer_inner > ul > li:nth-child(2) a{font-size: 15px; color: #fff;}
+.footer_inner > ul > li:nth-child(2) a:hover{text-decoration: underline;}
+.footer_inner > dl {margin: 20px 0 30px;}
+.footer_inner > dl > dd {display: inline-block; margin-left: 5px; width: 109px; height: 27px;
+ background: #272727; border: 1px solid #2c2c2c; border-radius: 2px; line-height: 27px;}
+.footer_inner > dl > dd > a {color: #fff;}
+
+.footer_inner > dl > dd.family_site{position: relative; width: 189px;
+background: #222; border: 1px solid #6d6d6d; text-align: left;}
+.footer_inner > dl > dd.family_site>a {display: block; padding: 0 14px;
+background: url(../images/ico_family_arrow.png) no-repeat 162px 0; color: #a3a3a3; font-size: 12px;}
+.footer_inner > dl > dd.family_site.on>a {background-position-y: -27px;}
+
+.footer_inner > dl > dd.family_site>ul {display: none; position: absolute; bottom: 27px; left: -1px; right: -1px;
+background: #222; border: 1px solid #6d6d6d; border-radius: 2px; padding: 7px 14px; color: #ddd; font-size: 12px;}
+.footer_inner > dl > dd.family_site.on>ul{z-index: 999; display: block;}
+.footer_inner > dl > dd.family_site>ul a {color: #a3a3a3;}
+.footer_inner > dl > dd.family_site>ul>li>ul {text-indent: 10px;}
+
+.footer_inner > address {font-size: 12px; line-height: 24px;}
+.footer_inner > address > span {padding: 0 7px;}
+
+.footer_inner > p.copy{font-size: 12px; padding-top: 5px; letter-spacing: 0;}
+
+/* top 버튼 */
+div.top.ab {z-index: 9999; position: absolute; top: -100px; right: 20px;}
+div.top.on {z-index: 9999; position: fixed; right: 20px; bottom: 50px;}
